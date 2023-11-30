@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+<channel>
+    <title>Eduford</title>
+    <link></link>
+    <description>The Biggest University World Wide</description>
+    <item>
+    <title>Eduford University</title>
+    <link></link>
+    <description>Close look into our curriculum and courses we offer.</description>
+    </item>
+</channel>
+</rss>

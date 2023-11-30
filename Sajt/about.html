@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="sr-latn-RS">
+<head>
+<meta charset="UTF-8"/>
+<meta name="keywords" content = />
+<link rel="stylesheet" type="text/css" href="css/style.css"/>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,600;0,700;1,100&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>About Us</title>
+</head>
+<body>
+
+        <section class="sub-header">
+            <nav>
+                <a href="index.html"><img src="img/logo.png" alt="logo"></a>
+                <div class="nav-links" id="navLinks">
+                    <i class="fas fa-xmark" onclick="toggleMenu()"></i>
+                    <ul>
+                        <li><a href="index.html">HOME</a></li>
+                        <li><a href="about.html">ABOUT</a></li>
+                        <li><a href="course.html">COURSE</a></li>
+                        <li><a href="contact.html">CONTACT</a></li>
+                        <li><a href="gallery.html">GALLERY</a></li>
+                        <li><a href="author.html">AUTHOR</a></li>
+                    </ul>
+                </div>
+                <i class="fas fa-bars" onclick="toggleMenu()"></i>
+            </nav>
+            <h1>About Us</h1>
+        </section>
+        <!-- about us content -->
+        <section class="about-us">
+            <div class="row">
+                <div class="about-col">
+                    <h2> We are the world's largest university</h2>
+                    <p>Standing proudly as the world's largest university, our institution epitomizes a commitment to academic eminence on a
+                        global scale. With an expansive repertoire of programs spanning diverse disciplines, our university has become a
+                        nexus of intellectual exploration and scholarly pursuits. Encompassing a vast and inclusive community, our campus
+                        thrives as a dynamic hub where students from diverse backgrounds converge to exchange ideas, fostering a rich
+                        tapestry of cultural diversity. Equipped with cutting-edge facilities, our university is a crucible for innovation,
+                        research, and the holistic development of individuals. Beyond geographical confines, we transcend borders to provide
+                        an enriching educational experience. As we embark on this journey of educational leadership, our vision is to
+                        continually redefine the landscape of higher education, shaping the future by nurturing a global community of
+                        forward-thinking individuals. Welcome to the world's largest university, where the pursuit of knowledge knows no
+                        bounds.</p>
+                    <a href="" class="hero-btn red-btn">EXPLORE NOW</a>
+                </div>
+                <div class="about-col">
+                    <img src="img/about.jpg">
+                </div>
+            </div>
+        </section>
+
+
+<!-- Footer -->
+<section class="footer">
+    <div id="newsletter">
+        <div id="newsletter-content">
+            <h4>Newsletter</h4>
+            <p>Want to be up to date with our inovations and news. Sign up for our newsletter!</p>
+        </div>
+        <div id="newsletter-form"> <input type="email" name="email" placeholder="Email" /> <input type="submit" class="hero-btn red-btn1"
+                value="Sign up" /> </div>
+    </div>
+    <div id="aboutus">
+        <div class="about-us-content">
+    <h4>About Us</h4>
+    <p>With a commitment to shaping future leaders and contributing to societal advancement,<br>
+    our mission is to empower individuals through transformative education,<br>
+    equipping them with the knowledge and skills to thrive in an ever-evolving world.</p>
+    <div class="icons">
+        <i class="fa-brands fa-facebook"></i>
+        <i class="fa-brands fa-twitter"></i>
+        <i class="fa-brands fa-instagram"></i>
+        <i class="fa-brands fa-linkedin"></i>
+    </div>
+    <p> Made with <i class="fa-regular fa-heart"> </i> by Nikola Gajic</p>
+    </div>
+</div>
+</section>
+<!-- JS for responsive menu -->
+<script> 
+    var navLinks = document.getElementById("navLinks");
+
+function toggleMenu() {
+    var rightValue = navLinks.style.right;
+    navLinks.style.right = rightValue === "-200px" ? "0" : "-200px";
+}
+
+</script>
+       
+    
+</body>
+
+</html>
