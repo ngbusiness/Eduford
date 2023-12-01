@@ -626,3 +626,31 @@ margin-top: 100px;
     background: #fff;
 }
 
+@media(max-width:700px){
+    .author{
+        width: 100%;
+        clear: both;
+        display: inline-block;
+    }
+    .author img{
+        margin-left: 20px;
+        clear: both;
+        width: 100%;
+    }
+    .author-text{
+        margin-left: 0;
+        width: 100%;
+    }
+    .author-item h2 {
+        margin-left: 20px;
+        font-size: 25px;
+        color: #333333;
+    }
+    .author-item p {
+        margin-left: 20px;
+        font-size: 15px;
+        color: #555555;
+        margin-bottom: 10px;
+    }
+}
+
