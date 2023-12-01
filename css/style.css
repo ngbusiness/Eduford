@@ -353,6 +353,36 @@ color:#f44336;
 .footer p{
     clear:both;
 }
+@media(max-width: 700px){
+    *{
+        clear: both;
+    }
+    .footer{
+        display: inline-block;
+    }
+    #newsletter{
+        margin-left: 100px;
+    }
+    #newsletter-form{
+        justify-content: center;
+    }
+    #newsletter input[type=email]{
+        text-align: left;
+        width: fit-content;
+    }
+    .hero-btn{
+        margin-left: 20;
+        clear: both; 
+
+    }
+    .red-btn1{
+        margin-top: 20px;
+        justify-content: center; 
+    }
+    .fas{
+        
+    }
+}
 
 /* about us page */
 
@@ -588,7 +618,7 @@ margin-top: 100px;
     border: 1px #fff;
     background: #f44336;
     color: #fff;
-    margin-left: 60px;
+    margin-left: 30px;
 }
 
 .red-btn1:hover{
